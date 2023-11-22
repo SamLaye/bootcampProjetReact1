@@ -15,6 +15,13 @@
     background-color: rgb(236, 216, 178);
   }
   .X{
-    left: 300px;
+    left: 290px;
     top: 0px;
+  }
+  #card{
+    height:450px;
+    
+  }
+  #body{
+    background-color: #f5f5f5 !important;
   }
