@@ -16,4 +16,9 @@ body{
   /* ================================================
       H  _  O  _  M  _  E
      =============================================== */      
-  
+#bgLineIcon1{
+    background-color: #ffe3e3;
+} 
+#bgLineIcon2{
+    background-color: #d0ebff;
+}

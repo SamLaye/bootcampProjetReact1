@@ -26,11 +26,14 @@ const Home = () => {
                 </div>
             </div>
             <div className="container mt-5 mb-2">
-                <Line icon="bi bi-grid"
+                <Line 
+                    colorIcone= "bgLineIcon1"
+                    icon="bi bi-grid"
                     contenu="Duis aute irure dolor in reprehenderit in voluptate velit esse
 		  		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 		  		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. "/>
                 <Line
+                    colorIcone= "bgLineIcon2"
                     icon="bi bi-pencil-fill"
                     contenu='{<LineCompWithBtn />}' />
             </div>
