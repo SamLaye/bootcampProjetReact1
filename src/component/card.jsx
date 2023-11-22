@@ -6,8 +6,8 @@ export default function Card(props) {
   console.log(props)
 
   return (
-    <div className='container'>
-    <div className='row justify-content-center'> 
+    
+   
       <div className='col-md-4'>
         <div class="card">
           <h5 class="card-title">{props.first.title} </h5>
@@ -23,7 +23,7 @@ export default function Card(props) {
           <div className='card-footer text-end'>READ MORE <i class="bi bi-chevron-right"></i></div>
         </div>
       </div>
-    </div>
-    </div>
+    
+    
   )
 }
