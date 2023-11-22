@@ -11,7 +11,7 @@ export default function Sidebar({munuItems}) {
   
 
   return (
-    <div className='bg-white '>
+    <div className='bg-white border border-grey '>
         <div className='d-flex justify-content-center  align-items-center'>
           <div className='p-3'>
             <img src= {lio} alt="" className='img-fluid' />
