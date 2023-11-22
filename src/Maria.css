@@ -1,0 +1,20 @@
+#img1,#img2,#img3,#img4,#img5{
+
+    margin : 0 20px;
+  }
+  #list1{
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .doing{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgb(236, 216, 178);
+  }
+  .X{
+    left: 300px;
+    top: 0px;
+  }
