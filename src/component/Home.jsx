@@ -25,7 +25,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="container mt-5 mb-2">
+            <div className="container mt-5 mb-2" id='line'>
                 <Line 
                     colorIcone= "bgLineIcon1"
                     icon="bi bi-grid"
@@ -37,7 +37,7 @@ const Home = () => {
                     icon="bi bi-pencil-fill"
                     contenu='{<LineCompWithBtn />}' />
             </div>
-            <div className='container mt-2'>
+            <div className='container'>
                 <div className='row'>
                     {/* CARD POUR MARIAMA */}
                     <Card first={{

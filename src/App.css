@@ -16,9 +16,12 @@ body{
   /* ================================================
       H  _  O  _  M  _  E
      =============================================== */      
-#bgLineIcon1{
+#home #bgLineIcon1{
     background-color: #ffe3e3;
 } 
-#bgLineIcon2{
+#home #bgLineIcon2{
     background-color: #d0ebff;
+}
+#home #line .myLine{
+    min-height: 120px;
 }
