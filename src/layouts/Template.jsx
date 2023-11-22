@@ -1,4 +1,4 @@
-const Template = (props) => {
+const Template = () => {
     return (
         <div className='container-fluid'>
             <div className="row ">
