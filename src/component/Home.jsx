@@ -1,5 +1,7 @@
 import elipse from '../assets/ellipse 1.png'
-import Line from './homeComponents/Line';
+import Line from './component/Line';
+import Card from './component/Card';
+
 // import LineCompWithBtn from './homeComponents/LineCompWithBtn';
 
 const Home = () => {
@@ -46,6 +48,7 @@ const Home = () => {
                         text: 'A cloud database is a basically a scalable content database running on a cloud computing platform that can be private, public, or hybrid.',
                         footer: 'UPGRADE ENTERPRISE'
                     }} />
+                    
                 </div>
 
             </div>
