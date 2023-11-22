@@ -17,11 +17,14 @@ const Home = () => {
 
                     <div className="d-flex">
                         <div><img src={elipse} alt="" /></div>
-                        <span>
-                            <h2 className="text-capitalize">blaze | service main</h2>
-                            <h4 className='text-uppercase'> rejected</h4>
-                        </span>
-                        <span className='text-small'>Created: 24/02/2019</span>
+                        <div className='mx-3'>
+                            <h2 className="text-capitalize fs-5">blaze | service main</h2>
+                            <span className='text-muted p-0'>Created: 24/02/2019</span>
+                        </div>
+                        <div>
+                            <h4 className='text-uppercase fs-5'> rejected</h4>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
