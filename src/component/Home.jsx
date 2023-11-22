@@ -1,6 +1,6 @@
 import elipse from '../assets/ellipse 1.png'
-import Line from './component/Line';
-import Card from './component/card';
+import Line from './component/Line'
+import Card from './component/card'
 import Tof1 from '../assets/tof1.jpg'
 import Tof2 from '../assets/tof1.jpg'
 import Tof3 from '../assets/tof1.jpg'
