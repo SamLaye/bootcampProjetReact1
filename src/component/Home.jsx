@@ -32,28 +32,28 @@ const Home = () => {
             <Line
                 icon="bi bi-bell"
                 contenu='{<LineCompWithBtn />}' /> */}
-                <Line />
-            <div>
-                {/* CARD POUR MARIAMA */}
-                <Card first={{
-                    title: 'CLOUD DATABASE',
-                    img: Tof1,
-                    text: 'A cloud database is a basically a scalable content database running on a cloud computing platform that can be private, public, or hybrid.',
-                    footer: 'UPGRADE ENTERPRISE'
-                }} />
-                <div className='col-md-4'><Card first={{
-                    title: 'CLOUD DATABASE',
-                    img: Tof2,
-                    text: <p class="card-text">Canned responses are used to answer the questions quickly, but not necessarily the lead to closing a sale. </p>,
-                    footer: 'UPGRADE ENTERPRISE'
-                }} />
+            <Line />
+            <div className='container'>
+                <div className='row'>
+                    {/* CARD POUR MARIAMA */}
+                    <Card first={{
+                        title: 'CLOUD DATABASE',
+                        img: Tof1,
+                        text: 'A cloud database is a basically a scalable content database running on a cloud computing platform that can be private, public, or hybrid.',
+                        footer: 'UPGRADE ENTERPRISE'
+                    }} />
+                    <Card first={{
+                        title: 'CLOUD DATABASE',
+                        img: Tof2,
+                        text: <p class="card-text">Canned responses are used to answer the questions quickly, but not necessarily the lead to closing a sale. </p>,
+                        footer: 'UPGRADE ENTERPRISE'
+                    }} />
                     <Card first={{
                         title: 'CLOUD DATABASE',
                         img: Tof3,
                         text: 'A cloud database is a basically a scalable content database running on a cloud computing platform that can be private, public, or hybrid.',
                         footer: 'UPGRADE ENTERPRISE'
                     }} />
-                    
                 </div>
 
             </div>
