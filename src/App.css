@@ -1,37 +1,19 @@
 body{
     background-color: #f5f5f5 !important;
   }
-  
-  /* ================================================
-      S  _  I  _  D  _  E  _  B  _  A  _  R
-     =============================================== */
-  #img1, #img2, #img3, #img4, #img5{
-    margin: 0 20px;
-  }
-  #list1{
-    background-color: #0f0e0e !important;
-    color: #fff;
-  }
-  
-  
-  
-  
-   
   /* ================================================
       N  _  A  _  V  _  B  _  A  _  R
      =============================================== */   
   #navbar-input{
     outline: none !important ;
     width: 70%;
-    background-color: #f5f5f5;
+    /* background-color: #f5f5f5; */
+
+        background-color: #fff;
+
   }
-  
-     
-  
    
   /* ================================================
       H  _  O  _  M  _  E
      =============================================== */      
-  #homeIMG{
-    width: 2px;
-  }   
+  

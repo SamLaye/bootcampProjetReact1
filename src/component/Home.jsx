@@ -1,8 +1,8 @@
 import elipse from '../assets/ellipse 1.png'
 import Card from './card'
 import Tof1 from '../assets/tof1.jpg'
-import Tof2 from '../assets/tof1.jpg'
-import Tof3 from '../assets/tof1.jpg'
+import Tof2 from '../assets/tof2.jpg'
+import Tof3 from '../assets/tof3.jpg'
 import Line from './Line'
 
 
@@ -25,33 +25,41 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            {/* <Line icon="bi bi-grid" 
-                  contenu="Duis aute irure dolor in reprehenderit in voluptate velit esse
+            <div className="container mt-5 mb-2">
+                <Line icon="bi bi-grid"
+                    contenu="Duis aute irure dolor in reprehenderit in voluptate velit esse
 		  		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 		  		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. "/>
-            <Line
-                icon="bi bi-bell"
-                contenu='{<LineCompWithBtn />}' /> */}
-            <Line />
-            <div className='container'>
+                <Line
+                    icon="bi bi-pencil-fill"
+                    contenu='{<LineCompWithBtn />}' />
+            </div>
+            <div className='container mt-2'>
                 <div className='row'>
                     {/* CARD POUR MARIAMA */}
                     <Card first={{
-                        title: 'CLOUD DATABASE',
+                        title: '7/24 LIVE HELP',
                         img: Tof1,
-                        text: 'A cloud database is a basically a scalable content database running on a cloud computing platform that can be private, public, or hybrid.',
+                        text: <div>
+                                <p class="card-text fs-6">Canned responses are used to answer the questions quickly, but not necessarily the lead to closing a sale. </p>
+                                <p class="card-text fs-6">
+                                Faster response 
+                                <br />Right tone of language
+                                <br />Consistency in brand experience
+                                </p>
+                            </div>,
                         footer: 'UPGRADE ENTERPRISE'
                     }} />
                     <Card first={{
                         title: 'CLOUD DATABASE',
                         img: Tof2,
-                        text: <p class="card-text">Canned responses are used to answer the questions quickly, but not necessarily the lead to closing a sale. </p>,
+                        text: 'A cloud database is a basically a scalable content database running on a cloud computing platform that can be private, public, or hybrid.',
                         footer: 'UPGRADE ENTERPRISE'
                     }} />
                     <Card first={{
-                        title: 'CLOUD DATABASE',
+                        title: 'ENTERPRISE ACCOUNT',
                         img: Tof3,
-                        text: 'A cloud database is a basically a scalable content database running on a cloud computing platform that can be private, public, or hybrid.',
+                        text: "Enterprise solutions are designed to integrate multiple facets of a company's business through the interchange of information from various business process ...",
                         footer: 'UPGRADE ENTERPRISE'
                     }} />
                 </div>
