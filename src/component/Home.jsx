@@ -1,9 +1,9 @@
 import elipse from '../assets/ellipse 1.png'
-import Line from './component/Line'
-import Card from './component/card'
+import Card from './card'
 import Tof1 from '../assets/tof1.jpg'
 import Tof2 from '../assets/tof1.jpg'
 import Tof3 from '../assets/tof1.jpg'
+import Line from './Line'
 
 
 // import LineCompWithBtn from './homeComponents/LineCompWithBtn';
@@ -25,12 +25,14 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <Line icon="bi bi-grid" contenu="Duis aute irure dolor in reprehenderit in voluptate velit esse
+            {/* <Line icon="bi bi-grid" 
+                  contenu="Duis aute irure dolor in reprehenderit in voluptate velit esse
 		  		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 		  		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. "/>
             <Line
                 icon="bi bi-bell"
-                contenu='{<LineCompWithBtn />}' />
+                contenu='{<LineCompWithBtn />}' /> */}
+                <Line />
             <div>
                 {/* CARD POUR MARIAMA */}
                 <Card first={{
