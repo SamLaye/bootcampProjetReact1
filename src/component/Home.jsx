@@ -1,11 +1,14 @@
 import elipse from '../assets/ellipse 1.png'
 import Line from './component/Line';
 import Card from './component/Card';
+import Tof1 from '../assets/tof1.jpg'
+import Tof2 from '../assets/tof1.jpg'
+import Tof3 from '../assets/tof1.jpg'
+
 
 // import LineCompWithBtn from './homeComponents/LineCompWithBtn';
 
 const Home = () => {
-    const lineItems = ["bi bi-grid", "bi bi-bell"]
     return (
         <div id="home">
             <div>
@@ -32,13 +35,13 @@ const Home = () => {
                 {/* CARD POUR MARIAMA */}
                 <Card first={{
                     title: 'CLOUD DATABASE',
-                    img: Tof2,
+                    img: Tof1,
                     text: 'A cloud database is a basically a scalable content database running on a cloud computing platform that can be private, public, or hybrid.',
                     footer: 'UPGRADE ENTERPRISE'
                 }} />
                 <div className='col-md-4'><Card first={{
                     title: 'CLOUD DATABASE',
-                    img: Tof,
+                    img: Tof2,
                     text: <p class="card-text">Canned responses are used to answer the questions quickly, but not necessarily the lead to closing a sale. </p>,
                     footer: 'UPGRADE ENTERPRISE'
                 }} />
