@@ -3,6 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import "bootstrap/dist/js/bootstrap.bundle.min.js"
 import user from '../assets/user.png'
 
+
 const Navbar = () => {
     return ( 
         <div className='row justify-content-between py-2'>
