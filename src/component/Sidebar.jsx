@@ -6,13 +6,14 @@ import '../Maria.css'
 import lio from "../assets/loi.png"
 import "bootstrap-icons/font/bootstrap-icons.css"
 
-export default function Sidebar({munuItems}) {
+export default function Sidebar({munuItems,handleToggle}) {
  
   
 
   return (
     <div className='bg-white border border-grey   py-2 h-100 mx-0 ' id='sidebar'>
         <div className='d-flex justify-content-center  align-items-center'>
+
           <div className='pe-2'>
             <img src= {lio} alt="" className='img-fluid' />
           </div>
@@ -20,6 +21,12 @@ export default function Sidebar({munuItems}) {
             <h1>dashy</h1>
             <span>bussiness and Consulting</span>
           </div>
+        <div className='col-1 my-auto' id="toggleSidebar">
+                <button className='btn' onClick={handleToggle}>
+                     <i class="bi bi-toggle2-off"></i>    
+                    
+                </button>
+            </div>
         </div>
       
         <div className='mt-5'>
@@ -49,7 +56,7 @@ export default function Sidebar({munuItems}) {
 
         </div>
         <div className='doing text-center  position-relative mt-5'>
-            <h3 className='text-warning text-wrap text-center fs-3'> Upgrade to Entreprise Account</h3>
+            <h3 className='text-warning text-wrap text-center fs-2'> Upgrade to Entreprise Account</h3>
             <p className='fs-6'>Lorem  adipisicing elit. Quisquam repellat possimus, voluptate vitae illo itaque cumque blanditiis moll</p>
             <button  className='text-white btn btn-dark '>Upgrate</button>
        

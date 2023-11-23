@@ -14,7 +14,7 @@
     background-color: #FFF9DB;
   }
   .X{
-    left: 215px;
+    left: 260px;
     top: 0px;
   }
   .card{
@@ -24,7 +24,12 @@
   #body{
     background-color: #f5f5f5 !important;
   }
-  /* #sidebar{
-    width:300px;
-    z-index: 1;
-  } */
+
+  @media screen and (max-width:860px){
+
+    .X{
+      left: 360px;
+      top: 0px;
+    }
+  }
+  
