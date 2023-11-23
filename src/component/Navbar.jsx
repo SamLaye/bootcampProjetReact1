@@ -6,7 +6,7 @@ import user from '../assets/user.png'
 
 const Navbar = () => {
     return ( 
-        <div className='row bg-white justify-content-between py-2'>
+        <div className='row bg-white justify-content-between py-2' id='navbar'>
             <div className="col my-auto">
                 <div className='input-group' id='navbar-input-container'>
                     <i class="bi bi-search my-auto me-2"></i>
