@@ -54,11 +54,11 @@ body {
     font-size: 25px;
 }
  #template  #sidebarContainer{
-        width: 23% !important;
+    width: 23% !important;
     }
-    #template #navbarContainer{
-        width: 77% !important;
-    } 
+#template #navbarContainer{
+    width: 77% !important;
+} 
 @media screen and (max-width: 1516px) {
     /* ================================================
           S  _  I  _  D  _  E _  B  _  A  _  R

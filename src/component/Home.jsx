@@ -12,8 +12,8 @@ import LineCompWithoutBtn from './LineCompWithoutBtn'
 
 const Home = () => {
     return (
-        <div id="home">
-            <div className='container'>
+        <div id="home" className='container'>
+            <div className='ps-2'>
                 <h3>overview</h3>
                 <div className="row">
 
