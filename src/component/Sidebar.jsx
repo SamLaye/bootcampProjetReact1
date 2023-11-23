@@ -21,6 +21,7 @@ export default function Sidebar({munuItems}) {
             <span>bussiness and Consulting</span>
           </div>
         </div>
+      
         <div className='mt-5'>
             <h6>MAIN MENU</h6>
             <ul className='mt-4'>
