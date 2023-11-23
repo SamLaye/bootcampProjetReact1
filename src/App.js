@@ -15,9 +15,11 @@ function App() {
     { list: "list5", id: "img5", icon: "bi bi-pie-chart", name: "report center" }
   ]
   const [toggle, setToggle] = useState(true)
+
   const handleToggle = () => {
     setToggle(!toggle)
   }
+  
   return (
     <Template
       toggle={toggle} 

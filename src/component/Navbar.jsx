@@ -9,14 +9,8 @@ const Navbar = (props) => {
         <div className='row bg-white justify-content-between py-2' id='navbar'>
             <div className='col-1 my-auto' id="toggle">
                 <button className='btn' onClick={props.handleToggle}>
-                    {
-                    props.toggle ? 
-                        <i class="bi bi-toggle2-off"></i> 
-                        : 
-                        <i class="bi bi-toggle2-on"></i>
-                    }
-                    
-                    
+                    {/* <i class="bi bi-toggle2-off"></i>    */}
+                    <i class="bi bi-toggle2-on"></i>
                 </button>
             </div>
             <div className="col my-auto">

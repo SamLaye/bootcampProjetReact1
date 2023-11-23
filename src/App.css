@@ -12,7 +12,7 @@ body {
       N  _  A  _  V  _  B  _  A  _  R
      =============================================== */
 
-#navbar #toggle .bi-toggle2-off{
+#sidebar #toggleSidebar .bi-toggle2-off{
     color: #d45151;
 }
 #navbar #toggle .bi-toggle2-on{
