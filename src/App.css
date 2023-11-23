@@ -2,12 +2,21 @@ body {
     background-color: #f5f5f5 !important;
 }
 
-/* #sidebarContainer{
-    padding-left: 0 !important;
-  } */
+/* ================================================
+      S  _  I  _  D  _  E _  B  _  A  _  R
+     =============================================== */
+#sidebar{
+    transition: 5s ease-in-out;
+}
 /* ================================================
       N  _  A  _  V  _  B  _  A  _  R
      =============================================== */
+#navbar #toggle .bi-toggle2-off{
+    color: #d45151;
+}
+#navbar #toggle .bi-toggle2-on{
+    color: #51d4b8;
+}
 #navbar-input {
     outline: none !important;
     width: 70%;
@@ -50,4 +59,10 @@ body {
     #home #line #lineCompWithBtn button {
         padding: 10px 20px !important;
     }  
+}
+#sidebarContainer{
+    width: 20%;
+}
+#navbarContainer{
+    width: 80%
 }

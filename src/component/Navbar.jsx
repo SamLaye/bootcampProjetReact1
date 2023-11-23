@@ -4,9 +4,21 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js"
 import user from '../assets/user.png'
 
 
-const Navbar = () => {
+const Navbar = (props) => {
     return ( 
         <div className='row bg-white justify-content-between py-2' id='navbar'>
+            <div className='col-1 my-auto' id="toggle">
+                <button className='btn' onClick={props.handleToggle}>
+                    {
+                    props.toggle ? 
+                        <i class="bi bi-toggle2-off"></i> 
+                        : 
+                        <i class="bi bi-toggle2-on"></i>
+                    }
+                    
+                    
+                </button>
+            </div>
             <div className="col my-auto">
                 <div className='input-group' id='navbar-input-container'>
                     <i class="bi bi-search my-auto me-2"></i>

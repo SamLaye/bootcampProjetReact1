@@ -13,7 +13,7 @@ import LineCompWithoutBtn from './LineCompWithoutBtn'
 const Home = () => {
     return (
         <div id="home">
-            <div>
+            <div className='container'>
                 <h3>overview</h3>
                 <div className="row">
 
@@ -32,7 +32,7 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <div className="container mt-5 mb-2" id='line'>
+            <div className="mt-5 mb-2" id='line'>
                 <Line 
                     colorIcone= "bgLineIcon1"
                     icon="bi bi-x-circle-fill"
@@ -44,7 +44,7 @@ const Home = () => {
                     iconID="noRejected"
                     contenu={<LineCompWithBtn />} />
             </div>
-            <div className='container'>
+            <div className=''>
                 <div className='row'>
                     {/* CARD POUR MARIAMA */}
                     <Card first={{
