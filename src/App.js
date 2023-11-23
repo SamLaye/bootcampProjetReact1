@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import './App.css';
 import Home from './component/Home';
 import Navbar from './component/Navbar';
@@ -19,7 +19,22 @@ function App() {
   const handleToggle = () => {
     setToggle(!toggle)
   }
-  
+  useEffect(() => {
+    const handleResize = () => {
+      const screenWidth = window.innerWidth;
+      if (screenWidth > 860) {
+        setToggle(true);
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []); // Le tableau vide [] assure que 
+  // useEffect s'exécute uniquement une fois lors du montage initial du composant
+
   return (
     <Template
       toggle={toggle} 
@@ -30,6 +45,6 @@ function App() {
       <Home />
     </Template>
   );
-}
+}  
 
 export default App;
