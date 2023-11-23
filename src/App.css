@@ -1,27 +1,53 @@
-body{
+body {
     background-color: #f5f5f5 !important;
-  }
-  /* ================================================
+}
+
+/* #sidebarContainer{
+    padding-left: 0 !important;
+  } */
+/* ================================================
       N  _  A  _  V  _  B  _  A  _  R
-     =============================================== */   
-  #navbar-input{
-    outline: none !important ;
+     =============================================== */
+#navbar-input {
+    outline: none !important;
     width: 70%;
     /* background-color: #f5f5f5; */
 
-        background-color: #fff;
+    background-color: #fff;
 
-  }
-   
-  /* ================================================
+}
+
+/* ================================================
       H  _  O  _  M  _  E
-     =============================================== */      
-#home #bgLineIcon1{
+   =============================================== */
+#home #bgLineIcon1 {
     background-color: #ffe3e3;
-} 
-#home #bgLineIcon2{
+}
+
+#home #bgLineIcon2 {
     background-color: #d0ebff;
 }
-#home #line .myLine{
+
+#home #line .myLine {
     min-height: 120px;
+}
+
+#home .rejected,
+#home #line .rejected,
+#home #line #rejected {
+    color: #d45151;
+}
+
+#home #line #rejected,
+#home #line #noRejected {
+    font-size: 25px;
+}
+
+@media screen and (max-width: 992px) {
+/* ================================================
+      H  _  O  _  M  _  E
+   =============================================== */ 
+    #home #line #lineCompWithBtn button {
+        padding: 10px 20px !important;
+    }  
 }

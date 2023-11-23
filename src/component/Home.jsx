@@ -4,6 +4,8 @@ import Tof1 from '../assets/tof1.jpg'
 import Tof2 from '../assets/tof2.jpg'
 import Tof3 from '../assets/tof3.jpg'
 import Line from './Line'
+import LineCompWithBtn from './LineCompWithBtn'
+import LineCompWithoutBtn from './LineCompWithoutBtn'
 
 
 // import LineCompWithBtn from './homeComponents/LineCompWithBtn';
@@ -22,7 +24,9 @@ const Home = () => {
                             <span className='text-muted p-0'>Created: 24/02/2019</span>
                         </div>
                         <div>
-                            <h4 className='text-uppercase fs-5'> rejected</h4>
+                            <h4 className='text-uppercase fs-5 rejected'>
+                                <i className='bi bi-x-circle-fill'> </i> 
+                                rejected</h4>
                         </div>
                         
                     </div>
@@ -31,14 +35,14 @@ const Home = () => {
             <div className="container mt-5 mb-2" id='line'>
                 <Line 
                     colorIcone= "bgLineIcon1"
-                    icon="bi bi-grid"
-                    contenu="Duis aute irure dolor in reprehenderit in voluptate velit esse
-		  		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		  		proident, sunt in culpa qui officia deserunt mollit anim id est laborum. "/>
+                    icon="bi bi-x-circle-fill"
+                    iconID="rejected"
+                    contenu={<LineCompWithoutBtn />}/>
                 <Line
                     colorIcone= "bgLineIcon2"
                     icon="bi bi-pencil-fill"
-                    contenu='{<LineCompWithBtn />}' />
+                    iconID="noRejected"
+                    contenu={<LineCompWithBtn />} />
             </div>
             <div className='container'>
                 <div className='row'>
@@ -54,13 +58,13 @@ const Home = () => {
                                 <br />Consistency in brand experience
                                 </p>
                             </div>,
-                        footer: 'UPGRADE ENTERPRISE'
+                        footer: 'read more'
                     }} />
                     <Card first={{
                         title: 'CLOUD DATABASE',
                         img: Tof2,
                         text: 'A cloud database is a basically a scalable content database running on a cloud computing platform that can be private, public, or hybrid.',
-                        footer: 'UPGRADE ENTERPRISE'
+                        footer: 'read more'
                     }} />
                     <Card first={{
                         title: 'ENTERPRISE ACCOUNT',
