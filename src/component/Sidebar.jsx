@@ -36,7 +36,7 @@ export default function Sidebar({munuItems,handleToggle}) {
             munuItems.map((items) => (
                 <li className=' list-unstyled pb-4 pt-2 pe-5  fs-5' id={items.list} >
                   <i className={items.icon} id={items.id} ></i>   
-                    {items.name} </li> 
+                  <span>  {items.name}</span> </li> 
             ))
             }  
             </ul>
@@ -55,16 +55,14 @@ export default function Sidebar({munuItems,handleToggle}) {
             </ul>
 
         </div>
-        <div className='doing text-center  position-relative mt-5'>
-            <h3 className='text-warning text-wrap text-center fs-2'> Upgrade to Entreprise Account</h3>
+        <div className='doing text-center mt-5'>
+            <div className='d-flex'>
+            <h3 className='text-warning  fs-4'>Upgrade to Entreprise Account</h3>
+            <i className="bi bi-x-lg "></i>
+            </div>
             <p className='fs-6'>Lorem  adipisicing elit. Quisquam repellat possimus, voluptate vitae illo itaque cumque blanditiis moll</p>
-            <button  className='text-white btn btn-dark '>Upgrate</button>
-       
-        <div className='position-absolute X '><i className="bi bi-x-lg "></i></div>
+            <button  className='text-white btn btn-dark m-2 '>Upgrade</button>
         </div>
-
-        
-
     </div>
   )
 }
