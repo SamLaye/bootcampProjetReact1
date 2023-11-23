@@ -6,7 +6,7 @@ import user from '../assets/user.png'
 
 const Navbar = (props) => {
     return ( 
-        <div className='row bg-white justify-content-between py-2' id='navbar'>
+        <div className='row bg-white justify-content-between py-2 ' id='navbar'>
             <div className='col-1 my-auto' id="toggle">
                 <button className='btn' onClick={props.handleToggle}>
                     {/* <i class="bi bi-toggle2-off"></i>    */}
