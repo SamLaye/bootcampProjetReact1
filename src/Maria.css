@@ -7,7 +7,6 @@
     color:white;
     border-radius: 10px;
     width: 80%;
-    margin: 0 auto;
   }
   .doing{
     width: 80%;
@@ -18,10 +17,13 @@
     left: 290px;
     top: 0px;
   }
-  #card{
-    height:450px;
+  .card{
+   min-height:560px;
     
   }
   #body{
     background-color: #f5f5f5 !important;
+  }
+  #sidebar{
+    
   }
