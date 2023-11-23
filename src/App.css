@@ -11,6 +11,7 @@ body {
 /* ================================================
       N  _  A  _  V  _  B  _  A  _  R
      =============================================== */
+
 #navbar #toggle .bi-toggle2-off{
     color: #d45151;
 }
@@ -51,7 +52,34 @@ body {
 #home #line #noRejected {
     font-size: 25px;
 }
-
+@media screen and (max-width: 1516px) {
+    /* ================================================
+          S  _  I  _  D  _  E _  B  _  A  _  R
+       =============================================== */ 
+    #template{
+        position: relative;
+    }
+    /* #template  #sidebarContainer{
+        width: 27%;
+    }
+    #template #navbarContainer{
+        width: 73%
+    }   */
+}
+@media screen and (max-width: 1000px) {
+    /* ================================================
+          S  _  I  _  D  _  E _  B  _  A  _  R
+       =============================================== */ 
+    #template{
+        position: relative;
+    }
+    #template  #sidebarContainer{
+        width: 27%;
+    }
+    #template #navbarContainer{
+        width: 73%
+    }  
+}
 @media screen and (max-width: 992px) {
 /* ================================================
       H  _  O  _  M  _  E
@@ -60,9 +88,35 @@ body {
         padding: 10px 20px !important;
     }  
 }
-#sidebarContainer{
-    width: 20%;
+@media screen and (max-width: 938px) {
+    /* ================================================
+          S  _  I  _  D  _  E _  B  _  A  _  R
+       =============================================== */ 
+    #sidebar ul li{
+        font-size: 1rem !important;
+    }  
 }
-#navbarContainer{
-    width: 80%
+@media screen and (min-width: 860px) {
+    #navbar #toggle button{
+        display: none;
+    }
 }
+@media screen and (max-width: 860px) {
+    /* ================================================
+          S  _  I  _  D  _  E _  B  _  A  _  R
+       =============================================== */ 
+    #template{
+        position: relative;
+    }
+    #template  #sidebarContainer{
+        position: fixed !important;
+        z-index: 10;
+        width: 80%;
+    }
+    #template #navbarContainer{
+        position: inherit;
+        z-index: 5;
+        width: 100%;
+    }
+}
+

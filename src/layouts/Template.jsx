@@ -1,8 +1,8 @@
 const Template = (props) => {
     
     return (
-        <div className='container-fluid'>
-            <div className="row " >
+        <div className='container-fluid' id="template">
+            <div className="row" >
                 {props.toggle && <div className="col-md-2 ps-0" id="sidebarContainer">
                     {props.sidebar}
                 </div>}

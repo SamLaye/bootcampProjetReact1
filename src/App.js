@@ -21,7 +21,7 @@ function App() {
   return (
     <Template
       toggle={toggle} 
-      sidebar={<Sidebar 
+      sidebar={<Sidebar handleToggle={handleToggle} toggle={toggle} 
       munuItems={menuItems} />} 
       navbar={<Navbar handleToggle={handleToggle} toggle={toggle}/>}
     >
