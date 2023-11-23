@@ -19,18 +19,23 @@ function App() {
   const handleToggle = () => {
     setToggle(!toggle)
   }
+
   useEffect(() => {
     const handleResize = () => {
       const screenWidth = window.innerWidth;
       if (screenWidth > 860) {
         setToggle(true);
+      }else if( screenWidth < 860){
+        setToggle(false)
       }
     };
-
+    window.addEventListener('load', handleResize);
     window.addEventListener('resize', handleResize);
+    
 
     return () => {
       window.removeEventListener('resize', handleResize);
+      window.removeEventListener('load', handleResize);
     };
   }, []); // Le tableau vide [] assure que 
   // useEffect s'exécute uniquement une fois lors du montage initial du composant
