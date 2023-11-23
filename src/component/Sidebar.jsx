@@ -11,7 +11,7 @@ export default function Sidebar({munuItems,handleToggle}) {
   
 
   return (
-    <div className='bg-white border border-grey   py-2 h-100 mx-0 ' id='sidebar'>
+    <div className='bg-white border border-grey   py-2 old mx-0 ' id='sidebar'>
         <div className='d-flex justify-content-center  align-items-center'>
 
           <div className='pe-2'>
@@ -34,7 +34,7 @@ export default function Sidebar({munuItems,handleToggle}) {
             <ul className='mt-4'>
             {
             munuItems.map((items) => (
-                <li className=' list-unstyled pb-4 pt-2 pe-5  fs-5' id={items.list} >
+                <li className=' list-unstyled p-2 my-2  rounded fs-5' id={items.list} >
                   <i className={items.icon} id={items.id} ></i>   
                   <span>  {items.name}</span> </li> 
             ))
@@ -44,11 +44,11 @@ export default function Sidebar({munuItems,handleToggle}) {
         <div className='mt-5'>
             <h5 className='ps-3'>PREFERENCES</h5>
             <ul>
-                <li className='list-unstyled pb-3  fs-5'>
-                <i className="bi bi-person p-3"></i>
+                <li className='list-unstyled my-2 p-2  fs-5'>
+                <i className="bi bi-person  p-3"></i>
                     <span>Users</span>
                 </li>
-                <li className='list-unstyled pt-2 fs-5'>
+                <li className='list-unstyled my-2 p-2 fs-5'>
                 <i className="bi bi-gear p-3"></i>
                     <span>Settings</span>
                 </li>

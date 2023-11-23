@@ -9,8 +9,8 @@ export default function Card(props) {
   return (
     
    
-      <div className='col-md-4  mt-5'>
-        <div className="card  shadow-small  " id='card'>
+      <div className='col-md-4  mt-5  '>
+        <div className="card  shadow-small   " id='card'>
           <h6 className="card-title ps-4 pt-3">{props.first.title} </h6>
           <p className='ps-4 pt-0'>Entreprise Solution</p>
           <img src={props.first.img} class="card-img-top" alt="..."/>

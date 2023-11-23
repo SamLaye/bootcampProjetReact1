@@ -5,16 +5,18 @@
   #list1{
     background-color: black;
     color:white;
-    border-radius: 10px;
-    width: 90%;
+ 
   }
   .doing{
     width: 95%;
     margin: 0 auto;
     background-color: #FFF9DB;
   }
+  .old{
+    height: 100%;
+  }
   .card{
-   min-height:570px;
+   min-height:590px;
     
   }
   #body{
