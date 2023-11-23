@@ -97,7 +97,8 @@ body {
     }  
 }
 @media screen and (min-width: 860px) {
-    #navbar #toggle button{
+    #navbar #toggle button,
+    #sidebar #toggleSidebar button{
         display: none;
     }
 }
