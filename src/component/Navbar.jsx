@@ -19,6 +19,7 @@ const Navbar = (props) => {
                     <input 
                         type='text' 
                         className=' border-0 my-auto'
+                        autoFocus
                         placeholder='Search Data'
                         id='navbar-input'
                     />
